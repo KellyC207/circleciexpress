@@ -2,7 +2,7 @@ version: 2
 orbs:
   node: circleci/node@3.0.0
   workflows:
-    note-tests:
+    node-tests:
 jobs:
   -node/test
   build:
